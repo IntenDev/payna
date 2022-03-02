@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.main {
+  position: relative;
+  width: 1512px;
+  height: 2050px;
+  /*background: beige;*/
+}

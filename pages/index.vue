@@ -1,7 +1,16 @@
 <template>
-  <Tutorial/>
+  <div>
+    <div class="main">
+      <Navbar />
+
+    </div>
+  </div>
+
 </template>
 
 <script>
-export default {}
+export default {
+
+}
 </script>
+
