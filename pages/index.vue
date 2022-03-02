@@ -2,7 +2,7 @@
   <div>
     <div class="main">
       <Navbar />
-
+      <manage-pay />
     </div>
   </div>
 

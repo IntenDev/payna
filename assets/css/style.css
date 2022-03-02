@@ -1,3 +1,22 @@
+/*
+* Ilya Kosterin, 2022
+* www.in10.top
+*
+ */
+/*
+ <-- Fonts -->
+ */
+@font-face {
+  font-family: Poppins;
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+/*
+<-- Reset -->
+ */
 * {
   margin: 0;
   padding: 0;
@@ -9,3 +28,4 @@
   height: 2050px;
   /*background: beige;*/
 }
+

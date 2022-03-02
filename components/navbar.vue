@@ -7,14 +7,13 @@
       </div>
       <div class="textlogo"><span>Payna</span></div>
     </div>
-    <menu>
       <ul>
-        <li>Home</li>
-        <li>Features</li>
-        <li>Showcase</li>
-        <li>Pricing</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Showcase</a></li>
+        <li><a href="#">Pricing</a></li>
       </ul>
-    </menu>
+    <button class="btnSign">Sing In</button>
   </div>
 </template>
 
@@ -31,10 +30,11 @@ export default {
   align-items: flex-start;
   width: 1272px;
   height: 48px;
-  position: absolute;
+  position: relative;
   left: 120px;
   top: 40px;
-  border: 1px solid black;
+  margin-bottom: 100px;
+  /*border: 1px solid black;*/
 }
 .logo {
   display: flex;
@@ -82,7 +82,7 @@ export default {
   /* identical to box height */
   color: #070F18;
 }
-menu {
+ul {
   position: relative;
   width: 435px;
   height: 24px;
@@ -96,5 +96,21 @@ li {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+  margin-right: 30px;
+
+}
+li a {
+  color: #070F18;
+}
+.btnSign {
+  position: absolute;
+  width: 150px;
+  height: 48px;
+  right: 0;
+  /*top: 5px;*/
+  border-radius: 50px;
+  font-family: Poppins;
+  font-style: normal;
+
 }
 </style>
