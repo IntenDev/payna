@@ -33,8 +33,9 @@
   position: relative;
   width: 1512px;
   height: 2050px;
-  /*background: beige;*/
   margin-left: auto;
   margin-right: auto;
 }
-
+.fl-block {
+  float: left;
+}

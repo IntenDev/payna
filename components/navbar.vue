@@ -2,24 +2,28 @@
   <div class="navbar">
     <div class="logo">
       <div class="rectangle">
-        <div class="ellipse1"></div>
-        <div class="ellipse2"></div>
+        <div class="ellipse1" />
+        <div class="ellipse2" />
       </div>
-      <div class="textlogo"><span>Payna</span></div>
+      <div class="textlogo">
+        <span>Payna</span>
+      </div>
     </div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Showcase</a></li>
-        <li><a href="#">Pricing</a></li>
-      </ul>
-    <button class="btnSign">Sing In</button>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Showcase</a></li>
+      <li><a href="#">Pricing</a></li>
+    </ul>
+    <button class="btnSign">
+      Sing In
+    </button>
   </div>
 </template>
 
 <script>
 export default {
-  name: "navbar"
+  name: 'Navbar'
 }
 </script>
 
@@ -31,10 +35,7 @@ export default {
   width: 1272px;
   height: 48px;
   position: relative;
-  left: 120px;
-  top: 40px;
-  margin-bottom: 100px;
-  /*border: 1px solid black;*/
+  margin: 40px auto 100px auto;
 }
 .logo {
   display: flex;
@@ -47,7 +48,6 @@ export default {
   height: 34px;
   left: 0px;
   top: 0px;
-  /*background: #F5F6FB;*/
   border-radius: 10px;
 }
 .ellipse1 {
