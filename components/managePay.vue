@@ -1,13 +1,15 @@
 <template>
   <div class="container">
-    <div>
+    <div class="manageText">
       <div class="managePay">
         <h1>Manage Payroll Like an Expert</h1>
       </div>
-      <p>Payna is helping you to setting up the payroll without required any finance skills or knowledge before</p>
-      <button>Get Started</button>
+      <span>
+        <p>Payna is helping you to setting up the payroll without required any finance skills or knowledge before</p>
+      </span>
+      <button class="btn">Get Started</button>
     </div>
-    <div>
+    <div class="manageAnalytics">
       <div class="manageImg"></div>
       <div class="analytics"></div>
       <div class="builk"></div>
@@ -33,6 +35,18 @@ export default {
   top: 40px;
   /*border: 1px solid black;*/
 }
+.manageText {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 540px;
+  height: 400px;
+  margin-left: 20px;
+  margin-right: 90px;
+}
+.manageAnalytics {
+
+}
 .manageImg {
   background-image: url('/img/image3.png');
   width: 540px;
@@ -55,7 +69,42 @@ export default {
   height: 102px;
   left: 1000px;
   top: 41px;
+}
+h1 {
+  font-family: PoppinsB;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 82px;
+  padding-left: 15px;
+  color: #000000;
+}
+span {
+  position: relative;
+  float: left;
+  padding-left: 15px;
+  width: 450px;
+}
+p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  color: #575455;
+}
+.btn {
+  position: relative;
+  width: 180px;
+  height: 48px;
+  left: 15px;
+  border-radius: 50px;
+  font-family: Poppins;
+  font-size: 16px;
 
+  background-color: #1F7CFF;
+  color: #ffffff;
 
 }
 </style>

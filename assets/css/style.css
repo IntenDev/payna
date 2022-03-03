@@ -13,6 +13,13 @@
   font-weight: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: PoppinsB;
+  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
 
 /*
 <-- Reset -->
@@ -27,5 +34,7 @@
   width: 1512px;
   height: 2050px;
   /*background: beige;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
