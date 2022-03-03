@@ -7,20 +7,21 @@
       <span>
         <p>Payna is helping you to setting up the payroll without required any finance skills or knowledge before</p>
       </span>
-      <button class="btn">Get Started</button>
+      <button class="btn">
+        Get Started
+      </button>
     </div>
     <div class="manageAnalytics">
-      <div class="manageImg"></div>
-      <div class="analytics"></div>
-      <div class="builk"></div>
+      <div class="manageImg" />
+      <div class="analytics" />
+      <div class="builk" />
     </div>
   </div>
-
 </template>
 
 <script>
 export default {
-  name: "managePay"
+  name: 'ManagePay'
 }
 </script>
 
@@ -31,9 +32,9 @@ export default {
   align-items: flex-start;
   width: 1272px;
   position: relative;
-  left: 120px;
-  top: 40px;
-  /*border: 1px solid black;*/
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .manageText {
   display: flex;
@@ -42,7 +43,7 @@ export default {
   width: 540px;
   height: 400px;
   margin-left: 20px;
-  margin-right: 90px;
+  margin-right: 100px;
 }
 .manageAnalytics {
 
@@ -102,7 +103,6 @@ p {
   border-radius: 50px;
   font-family: Poppins;
   font-size: 16px;
-
   background-color: #1F7CFF;
   color: #ffffff;
 
